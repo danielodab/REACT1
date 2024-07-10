@@ -1,0 +1,55 @@
+.Header {
+    background-color: #000;
+    color: white;
+    unicode-bidi: isolate;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+    margin: 0;
+  }
+  
+.Container {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    padding-top: 0px;
+  }
+  
+  nav {
+    display: block;
+    unicode-bidi: isolate;
+    font: 400 1.125rem / 1.35 "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  .Header-Menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;  
+
+    a {
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }
+  
+  ul {
+    padding: 0px;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+  }
